@@ -1,0 +1,9 @@
+a1 = int(input("первая"))
+a2 = int(input("первая другая"))
+b1 = int(input("вторая"))
+b2 = int(input("вторая другая"))
+
+if (a1 + a2) % 2 == (b1 + b2) % 2:
+    print("yes")
+else:
+    print("no")
