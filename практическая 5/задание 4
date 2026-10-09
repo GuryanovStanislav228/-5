@@ -1,0 +1,11 @@
+import math
+
+a1 = int(input("первая"))
+a2 = int(input("первая другая"))
+b1 = int(input("вторая"))
+b2 = int(input("вторая другая"))
+
+if abs(a1 - b1) == abs(a2 - b2):
+    print("yes")
+else:
+    print("no")
